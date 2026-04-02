@@ -1,0 +1,15 @@
+[project]
+name = "gtfs_demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gtfs>=0.1.0",
+    "gtfs-realtime-bindings>=2.0.0",
+    "niquests>=3.18.4",
+    "prompt-toolkit>=3.0.52",
+    "protobuf>=7.34.1",
+    "rich>=14.3.3",
+    "textual>=8.2.1",
+]
